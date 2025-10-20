@@ -202,7 +202,7 @@ canvas.addEventListener("click", (e) => {
         if (objects[i].isClicked(mouseX, mouseY)) {
             objects[i].hide();
             score++;
-            scoreDisplay.textContent = `💀 Calaveras: ${score}`;
+            scoreDisplay.textContent = `💀 Espantos: ${score}`;
             
             // Efecto visual al eliminar
             ctx.fillStyle = '#ff6b00';
